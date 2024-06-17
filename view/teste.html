@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="imagex/png" href="../img/LogoEsporte.png">
+  <link rel="stylesheet" href="../styles/teste.css">
+  <title>Teste Vocacional Esportivo</title>
+</head>
+
+<body>
+  <h1>Teste Vocacional Esportivo</h1>
+  <div class="container">
+    <div class="question">
+      <label for="question1">1 - Você prefere esportes individuais ou em equipe?</label><br>
+      <input type="radio" id="individual" name="question1" value="individual"> Individuais<br>
+      <input type="radio" id="team" name="question1" value="team"> Em equipe<br>
+      <input type="radio" id="either" name="question1" value="either"> Tanto faz<br>
+    </div>
+
+    <div class="question">
+      <label for="question2">2 - Sua altura é considerada:</label><br>
+      <input type="radio" id="tall" name="question2" value="tall"> Alto(a)<br>
+      <input type="radio" id="medium" name="question2" value="medium"> Médio(a)<br>
+      <input type="radio" id="short" name="question2" value="short"> Baixo(a)<br>
+    </div>
+
+    <div class="question">
+      <label for="question3">3 - Para você, a atividade física ideal é:</label><br>
+      <input type="radio" id="dynamic" name="question3" value="dynamic"> Dinâmica e trabalha o corpo inteiro<br>
+      <input type="radio" id="burn_calories" name="question3" value="burn_calories"> Queima calorias<br>
+      <input type="radio" id="shows_results" name="question3" value="shows_results"> Mostra resultados<br>
+      <input type="radio" id="relaxes_mind" name="question3" value="relaxes_mind"> Relaxa a mente<br>
+    </div>
+
+    <div class="question">
+      <label for="question4">4 - Você é uma pessoa competitiva?</label><br>
+      <input type="radio" id="not_competitive" name="question4" value="not_competitive"> Não. Eu quero me divertir<br>
+      <input type="radio" id="healthy_competitive" name="question4" value="healthy_competitive"> Gosto de competir, mas de forma saudável<br>
+      <input type="radio" id="very_competitive" name="question4" value="very_competitive"> Sim! Detesto perder<br>
+      <input type="radio" id="hate_competition" name="question4" value="hate_competition"> De jeito nenhum. Odeio competir<br>
+    </div>
+
+    <div class="question">
+      <label for="question5">5 - O que mais incomoda você na hora de práticar um esporte?</label><br>
+      <input type="radio" id="coordination" name="question5" value="coordination"> Falta de coordenação<br>
+      <input type="radio" id="breathlessness" name="question5" value="breathlessness"> Falta de ar e de fôlego<br>
+      <input type="radio" id="joint_pain" name="question5" value="joint_pain"> Dores nos joelhos e nas articulações<br>
+      <input type="radio" id="back_pain" name="question5" value="back_pain"> Dores na coluna e problemas de postura<br>
+    </div>
+
+    <button onclick="showResult()">Calcular Resultado</button>
+
+    <div class="result" id="result"></div>
+  </div>
+
+
+
+
+  <script src="../js/script.js"></script>
+
+</body>
+
+</html>
